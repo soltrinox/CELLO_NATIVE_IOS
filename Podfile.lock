@@ -1,0 +1,54 @@
+PODS:
+  - AFNetworking (1.3.3)
+  - iCarousel (1.7.6)
+  - ISO8601DateFormatterValueTransformer (0.5.0):
+    - RKValueTransformers (~> 1.0.0)
+  - PullToRefresh (0.0.1)
+  - REFrostedViewController (2.2.1)
+  - RestKit (0.21.0):
+    - RestKit/Core
+  - RestKit/Core (0.21.0):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.21.0)
+  - RestKit/Network (0.21.0):
+    - AFNetworking (~> 1.3.0)
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.21.0):
+    - ISO8601DateFormatterValueTransformer (~> 0.5.0)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.0.0)
+  - RestKit/Support (0.21.0):
+    - TransitionKit (= 1.1.1)
+  - RFQuiltLayout (1.1.1)
+  - RKValueTransformers (1.0.0)
+  - SCSlidingViewController (0.0.1)
+  - SOCKit (1.1)
+  - TransitionKit (1.1.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 1.3.0)
+  - iCarousel (~> 1.7.6)
+  - PullToRefresh (~> 0.0.1)
+  - REFrostedViewController (~> 2.2.1)
+  - RestKit (~> 0.21.0)
+  - RFQuiltLayout (~> 1.1.1)
+  - SCSlidingViewController (~> 0.0.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 0700ec7a58c36ad217173e167f6e4df7270df66b
+  iCarousel: e23a26d7ba722215a42144e80adb0dcb59bebc41
+  ISO8601DateFormatterValueTransformer: d0af1f50a9df42db72d7418db31938b8473e0af8
+  PullToRefresh: d296df4515b0d4b1a7be445edbae31fc612c5016
+  REFrostedViewController: 7ecb0ab00990e6700dd330de35901bbe625e1a1b
+  RestKit: c11a30e7bc73513d9d2c2695672aba7697d24181
+  RFQuiltLayout: 8a3da0aaafcc29430d1a519e3ebb99f06191db40
+  RKValueTransformers: 01dc043fd853f6e40459b2e732dff545298a0f91
+  SCSlidingViewController: 01cb6b59c5249c9089386a93154ba76e095dd189
+  SOCKit: 2f3bc4d07910de12dcc202815e07db68a3802581
+  TransitionKit: d0e3344aac92991395d4c2e72d9c5a8ceeb12910
+
+COCOAPODS: 0.26.2
