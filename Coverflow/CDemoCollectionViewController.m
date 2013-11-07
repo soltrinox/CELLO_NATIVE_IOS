@@ -9,6 +9,7 @@
 #import "CCoverflowTitleView.h"
 #import "CCoverflowCollectionViewLayout.h"
 #import "CReflectionView.h"
+#import "RKTwitterViewController.h"
 
 #import "ResultsViewController.h"
 
@@ -94,6 +95,15 @@
 
 
 	ResultsViewController *resultsView =  [storyboard instantiateViewControllerWithIdentifier: @ "results"];
+    
+    [self.navigationController pushViewController:resultsView animated:YES ];
+}
+
+- (IBAction)goToTweets:(id)sender{
+
+ UIStoryboard * storyboard = self.storyboard;
+
+	RKTwitterViewController *resultsView =  [storyboard instantiateViewControllerWithIdentifier: @ "tweets"];
     
     [self.navigationController pushViewController:resultsView animated:YES ];
 }

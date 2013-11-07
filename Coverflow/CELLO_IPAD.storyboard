@@ -142,7 +142,7 @@
                     <navigationItem key="navigationItem" id="dIq-bk-9Go">
                         <barButtonItem key="rightBarButtonItem" title="Item" id="uB9-Rm-6tV">
                             <connections>
-                                <action selector="goToResults:" destination="oyF-k3-wWD" id="MoY-ei-LO1"/>
+                                <action selector="goToTweets:" destination="oyF-k3-wWD" id="tzc-4k-WgH"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -154,6 +154,59 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="peh-Bt-TKd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="459" y="-127"/>
+        </scene>
+        <!--Twitter View Controller-->
+        <scene sceneID="QQl-Jl-slk">
+            <objects>
+                <viewController storyboardIdentifier="tweets" useStoryboardIdentifierAsRestorationIdentifier="YES" id="SSJ-De-MIy" customClass="RKTwitterViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="chA-2m-QQF"/>
+                        <viewControllerLayoutGuide type="bottom" id="xSi-fi-cfE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FBz-Pc-zyO">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QMe-h7-zHE">
+                                <rect key="frame" x="0.0" y="456" width="320" height="568"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="568" id="xqS-mC-icU"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="EGy-lH-ixA">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="SSJ-De-MIy" id="q2Z-wZ-TZF"/>
+                                    <outlet property="delegate" destination="SSJ-De-MIy" id="5yK-u5-sH9"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EGy-lH-ixA" firstAttribute="top" secondItem="FBz-Pc-zyO" secondAttribute="top" id="4ug-6z-oFF"/>
+                            <constraint firstItem="QMe-h7-zHE" firstAttribute="bottom" secondItem="FBz-Pc-zyO" secondAttribute="bottom" id="Ck6-7L-f1F"/>
+                            <constraint firstItem="EGy-lH-ixA" firstAttribute="leading" secondItem="FBz-Pc-zyO" secondAttribute="leading" id="HYh-p1-6qu"/>
+                            <constraint firstItem="EGy-lH-ixA" firstAttribute="trailing" secondItem="FBz-Pc-zyO" secondAttribute="trailing" id="PXc-fk-Lte"/>
+                            <constraint firstItem="EGy-lH-ixA" firstAttribute="bottom" secondItem="FBz-Pc-zyO" secondAttribute="bottom" id="ilU-ZA-2sp"/>
+                            <constraint firstItem="QMe-h7-zHE" firstAttribute="leading" secondItem="FBz-Pc-zyO" secondAttribute="leading" id="rlZ-cm-QgD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="lYI-Ww-tcJ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="9Sq-Uv-U1H">
+                            <connections>
+                                <action selector="refresh:" destination="SSJ-De-MIy" id="fZU-gs-oAi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="EGy-lH-ixA" id="Fdz-er-tsW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9MF-fk-I9D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1315" y="73"/>
         </scene>
         <!--Navigation Controller - CELLO-->
         <scene sceneID="r1K-d5-5wU">

@@ -8,5 +8,6 @@
 
 - (IBAction)goToResults:(id)sender;
 - (IBAction)goBack2:(id)sender;
+- (IBAction)goToTweets:(id)sender;
 
 @end
