@@ -53,6 +53,7 @@
 		FC5E5675180D324700CB2F5D /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5E5674180D324700CB2F5D /* SDWebImage.framework */; };
 		FC5E5679180D4CA200CB2F5D /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = FC5E5678180D4CA200CB2F5D /* placeholder.png */; };
 		FC5E567B180D534700CB2F5D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC5E567A180D534700CB2F5D /* ImageIO.framework */; };
+		FC6E2A54182C9E3E005E5337 /* TwitterWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC6E2A53182C9E3E005E5337 /* TwitterWebViewController.m */; };
 		FC7B936F182096D200B32071 /* AwesomeMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7B936C182096D200B32071 /* AwesomeMenu.m */; };
 		FC7B9370182096D200B32071 /* AwesomeMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7B936E182096D200B32071 /* AwesomeMenuItem.m */; };
 		FC7B93801820979900B32071 /* bg-addbutton-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7B93721820979900B32071 /* bg-addbutton-highlighted.png */; };
@@ -128,8 +129,8 @@
 		FC4E602D182BA0B000032812 /* RKTwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKTwitterViewController.m; sourceTree = "<group>"; };
 		FC4E602F182BA43200032812 /* RKSeedDatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = RKSeedDatabase.sqlite; sourceTree = "<group>"; };
 		FC4E6031182BA49700032812 /* RKTwitterCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RKTwitterCoreData.xcdatamodel; sourceTree = "<group>"; };
-		FC4E6033182BA50100032812 /* libPods-RestKit.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-RestKit.a"; path = "Pods/build/Release-iphoneos/libPods-RestKit.a"; sourceTree = "<group>"; };
-		FC4E6035182BA59000032812 /* libPods-RestKit.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-RestKit.a"; path = "Pods/build/Release-iphoneos/libPods-RestKit.a"; sourceTree = "<group>"; };
+		FC4E6033182BA50100032812 /* libPods-RestKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-RestKit.a"; path = "Pods/build/Release-iphoneos/libPods-RestKit.a"; sourceTree = "<group>"; };
+		FC4E6035182BA59000032812 /* libPods-RestKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-RestKit.a"; path = "Pods/build/Release-iphoneos/libPods-RestKit.a"; sourceTree = "<group>"; };
 		FC56501B18209C0C001B54A8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		FC56503518209CCC001B54A8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		FC5650431820A06E001B54A8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -156,6 +157,8 @@
 		FC5E5674180D324700CB2F5D /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
 		FC5E5678180D4CA200CB2F5D /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 		FC5E567A180D534700CB2F5D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		FC6E2A52182C9E3E005E5337 /* TwitterWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterWebViewController.h; sourceTree = "<group>"; };
+		FC6E2A53182C9E3E005E5337 /* TwitterWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterWebViewController.m; sourceTree = "<group>"; };
 		FC7B936B182096D200B32071 /* AwesomeMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenu.h; sourceTree = "<group>"; };
 		FC7B936C182096D200B32071 /* AwesomeMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AwesomeMenu.m; sourceTree = "<group>"; };
 		FC7B936D182096D200B32071 /* AwesomeMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwesomeMenuItem.h; sourceTree = "<group>"; };
@@ -215,22 +218,12 @@
 		452250EE16123719007FEECC /* CELLO */ = {
 			isa = PBXGroup;
 			children = (
+				FC6E2A51182C9DDA005E5337 /* views */,
 				FC4E602B182BA0A100032812 /* RestKitDemo */,
 				FCB900FA1820C1F500B69E4E /* model */,
 				452251DC1612372B007FEECC /* Images */,
 				FC5E563B180BFE2A00CB2F5D /* default */,
 				FC5E566B180CC99800CB2F5D /* CELLO_IPAD.storyboard */,
-				452250F116123719007FEECC /* CDemoCollectionViewCell.h */,
-				452250F216123719007FEECC /* CDemoCollectionViewCell.m */,
-				452250F316123719007FEECC /* CDemoCollectionViewController.h */,
-				452250F416123719007FEECC /* CDemoCollectionViewController.m */,
-				452251E616124093007FEECC /* CCoverflowTitleView.xib */,
-				452251E8161240A6007FEECC /* CCoverflowTitleView.h */,
-				452251E9161240A6007FEECC /* CCoverflowTitleView.m */,
-				FC5E5668180C960400CB2F5D /* ResultsViewController.h */,
-				FC5E5669180C960400CB2F5D /* ResultsViewController.m */,
-				FC5E5652180C7BA900CB2F5D /* CelloNavigationViewController.h */,
-				FC5E5653180C7BA900CB2F5D /* CelloNavigationViewController.m */,
 				452250EF16123719007FEECC /* CAppDelegate.h */,
 				452250F016123719007FEECC /* CAppDelegate.m */,
 			);
@@ -313,6 +306,8 @@
 				FC4E601A182B9FCA00032812 /* RKTweet.m */,
 				FC4E602C182BA0B000032812 /* RKTwitterViewController.h */,
 				FC4E602D182BA0B000032812 /* RKTwitterViewController.m */,
+				FC6E2A52182C9E3E005E5337 /* TwitterWebViewController.h */,
+				FC6E2A53182C9E3E005E5337 /* TwitterWebViewController.m */,
 			);
 			name = RestKitDemo;
 			sourceTree = "<group>";
@@ -366,6 +361,24 @@
 				FC5E5645180C112B00CB2F5D /* BDRowInfo.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		FC6E2A51182C9DDA005E5337 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				452250F116123719007FEECC /* CDemoCollectionViewCell.h */,
+				452250F216123719007FEECC /* CDemoCollectionViewCell.m */,
+				452250F316123719007FEECC /* CDemoCollectionViewController.h */,
+				452250F416123719007FEECC /* CDemoCollectionViewController.m */,
+				452251E616124093007FEECC /* CCoverflowTitleView.xib */,
+				452251E8161240A6007FEECC /* CCoverflowTitleView.h */,
+				452251E9161240A6007FEECC /* CCoverflowTitleView.m */,
+				FC5E5668180C960400CB2F5D /* ResultsViewController.h */,
+				FC5E5669180C960400CB2F5D /* ResultsViewController.m */,
+				FC5E5652180C7BA900CB2F5D /* CelloNavigationViewController.h */,
+				FC5E5653180C7BA900CB2F5D /* CelloNavigationViewController.m */,
+			);
+			name = views;
 			sourceTree = "<group>";
 		};
 		FC7B936A182096D200B32071 /* AwesomeMenu */ = {
@@ -566,6 +579,7 @@
 				FCB900FD1820C24900B69E4E /* Wime.m in Sources */,
 				FC4E602E182BA0B000032812 /* RKTwitterViewController.m in Sources */,
 				4522516A16123719007FEECC /* CDemoCollectionViewCell.m in Sources */,
+				FC6E2A54182C9E3E005E5337 /* TwitterWebViewController.m in Sources */,
 				4522516B16123719007FEECC /* CDemoCollectionViewController.m in Sources */,
 				452251DB16123719007FEECC /* main.m in Sources */,
 				FC4E6032182BA49700032812 /* RKTwitterCoreData.xcdatamodel in Sources */,

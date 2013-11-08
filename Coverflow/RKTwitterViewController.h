@@ -10,4 +10,7 @@
 #import <RestKit/RestKit.h>
 
 @interface RKTwitterViewController : UIViewController
+
+@property (nonatomic, strong) NSArray* matches;
+
 @end

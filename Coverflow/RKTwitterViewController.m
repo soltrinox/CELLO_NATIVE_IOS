@@ -8,6 +8,7 @@
 
 #import "RKTwitterViewController.h"
 #import "RKTweet.h"
+#import "TwitterWebViewController.h"
 
 static void RKTwitterShowAlertWithError(NSError *error)
 {
@@ -121,14 +122,39 @@ static void RKTwitterShowAlertWithError(NSError *error)
 
 // locate URLs
 NSDataDetector* detector = [NSDataDetector dataDetectorWithTypes:NSTextCheckingTypeLink error:nil];
-NSArray* matches = [detector matchesInString:stat options:0 range:NSMakeRange(0, [stat length])];
+self.matches = [detector matchesInString:stat options:0 range:NSMakeRange(0, [stat length])];
 
-NSLog(@"=========> FOUND URLS in %i: %@ ", indexPath.item, matches);
+NSLog(@"=========> FOUND URLS in %i: %@ ", indexPath.item, self.matches);
 
 
     cell.textLabel.text = status.text;
     return cell;
 }
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+
+
+
+}
+
+
+
+
+
+- (void)goToTweetUrl
+{
+    
+    UIStoryboard * storyboard = self.storyboard;
+    
+    TwitterWebViewController *generic = [storyboard instantiateViewControllerWithIdentifier: @ "twitterweb"];
+    
+    [self.navigationController pushViewController:generic animated: YES];
+	// = self.matches ;
+	// generic.tweetURL = (NSString)[NSObject alloc] va [self.matches objectAtIndex:0]
+}
+
+
+
 
 #pragma mark NSFetchedResultsControllerDelegate methods
 
