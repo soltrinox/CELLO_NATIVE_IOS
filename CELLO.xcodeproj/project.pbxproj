@@ -31,7 +31,7 @@
 		458DD6161610F71C00DB2DD2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458DD6151610F71C00DB2DD2 /* AssetsLibrary.framework */; };
 		45C56F3F1612A5120066CADB /* CReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C56F3E1612A5120066CADB /* CReflectionView.m */; };
 		FC11D5F6182B9532002BC771 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC11D5F5182B9532002BC771 /* SDWebImage.framework */; };
-		FC182E2718272BCB00C157D9 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC182E2618272BCB00C157D9 /* libTestFlight.a */; };
+		FC18948D18AD585D005D1917 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC18948B18AD583C005D1917 /* libTestFlight.a */; };
 		FC4E6017182B98DD00032812 /* CELLO_WINE.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4E6016182B98DD00032812 /* CELLO_WINE.m */; };
 		FC4E601B182B9FCA00032812 /* RKTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4E601A182B9FCA00032812 /* RKTweet.m */; };
 		FC4E602E182BA0B000032812 /* RKTwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4E602D182BA0B000032812 /* RKTwitterViewController.m */; };
@@ -117,10 +117,10 @@
 		A24F118BDDB146FBBCC1DCB7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA27E3EC6661492CB2771195 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		FC11D5F5182B9532002BC771 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
-		FC182E2618272BCB00C157D9 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		FC182E2918272C7500C157D9 /* TestFlight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
-		FC182E2A18272C7500C157D9 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
-		FC182E2B18272C7500C157D9 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		FC18948818AD5809005D1917 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		FC18948918AD5809005D1917 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		FC18948A18AD5809005D1917 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		FC18948B18AD583C005D1917 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
 		FC4E6015182B98DD00032812 /* CELLO_WINE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CELLO_WINE.h; sourceTree = "<group>"; };
 		FC4E6016182B98DD00032812 /* CELLO_WINE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CELLO_WINE.m; sourceTree = "<group>"; };
 		FC4E6019182B9FCA00032812 /* RKTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKTweet.h; sourceTree = "<group>"; };
@@ -195,6 +195,7 @@
 				FC56503618209CCC001B54A8 /* CFNetwork.framework in Frameworks */,
 				FCADEAEE1820ADA60076E0E5 /* SystemConfiguration.framework in Frameworks */,
 				FCADEAEC1820AD960076E0E5 /* CoreData.framework in Frameworks */,
+				FC18948D18AD585D005D1917 /* libTestFlight.a in Frameworks */,
 				FCADEAEA1820AD810076E0E5 /* libxml2.dylib in Frameworks */,
 				FCADEAE81820AD730076E0E5 /* Security.framework in Frameworks */,
 				456BDDD61610896400398F00 /* Foundation.framework in Frameworks */,
@@ -206,7 +207,6 @@
 				458DD6161610F71C00DB2DD2 /* AssetsLibrary.framework in Frameworks */,
 				FC5E567B180D534700CB2F5D /* ImageIO.framework in Frameworks */,
 				FC5E5675180D324700CB2F5D /* SDWebImage.framework in Frameworks */,
-				FC182E2718272BCB00C157D9 /* libTestFlight.a in Frameworks */,
 				FC56501C18209C0C001B54A8 /* libz.dylib in Frameworks */,
 				1636306F623E491299996AD0 /* libPods.a in Frameworks */,
 			);
@@ -254,6 +254,7 @@
 		456BDDD21610896400398F00 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC18948B18AD583C005D1917 /* libTestFlight.a */,
 				FC4E6035182BA59000032812 /* libPods-RestKit.a */,
 				FC4E6033182BA50100032812 /* libPods-RestKit.a */,
 				FC11D5F5182B9532002BC771 /* SDWebImage.framework */,
@@ -261,7 +262,6 @@
 				FCADEAEB1820AD960076E0E5 /* CoreData.framework */,
 				FCADEAE71820AD730076E0E5 /* Security.framework */,
 				FCADEAC71820ACD10076E0E5 /* libRestKit.a */,
-				FC182E2618272BCB00C157D9 /* libTestFlight.a */,
 				FCADEAE91820AD810076E0E5 /* libxml2.dylib */,
 				FC56501B18209C0C001B54A8 /* libz.dylib */,
 				FC5650431820A06E001B54A8 /* MapKit.framework */,
@@ -281,9 +281,9 @@
 		FC182E2818272C6700C157D9 /* testflight */ = {
 			isa = PBXGroup;
 			children = (
-				FC182E2918272C7500C157D9 /* TestFlight.h */,
-				FC182E2A18272C7500C157D9 /* TestFlight+AsyncLogging.h */,
-				FC182E2B18272C7500C157D9 /* TestFlight+ManualSessions.h */,
+				FC18948818AD5809005D1917 /* TestFlight.h */,
+				FC18948918AD5809005D1917 /* TestFlight+AsyncLogging.h */,
+				FC18948A18AD5809005D1917 /* TestFlight+ManualSessions.h */,
 			);
 			name = testflight;
 			sourceTree = "<group>";
@@ -688,6 +688,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/dylan/Documents/WORK/Coverflow/Demo,
+					/Users/dylan/Documents/WORK/CELLO_NATIVE_IOS,
 				);
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = CELLO;
@@ -716,6 +717,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/dylan/Documents/WORK/Coverflow/Demo,
+					/Users/dylan/Documents/WORK/CELLO_NATIVE_IOS,
 				);
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = CELLO;

@@ -117,28 +117,21 @@ static void RKTwitterShowAlertWithError(NSError *error)
         // cell.contentView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"listbg.png"]];
     }
     RKTweet *status = [self.fetchedResultsController objectAtIndexPath:indexPath];
-
-	NSString *stat = status.text;
-
-// locate URLs
-NSDataDetector* detector = [NSDataDetector dataDetectorWithTypes:NSTextCheckingTypeLink error:nil];
-self.matches = [detector matchesInString:stat options:0 range:NSMakeRange(0, [stat length])];
-
-NSLog(@"=========> FOUND URLS in %i: %@ ", indexPath.item, self.matches);
-
-
     cell.textLabel.text = status.text;
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
+	RKTweet *status = [self.fetchedResultsController objectAtIndexPath:indexPath];
 
-
+	// locate URLs
+	NSString *stat = status.text;
+	NSDataDetector* detector = [NSDataDetector dataDetectorWithTypes:NSTextCheckingTypeLink error:nil];
+	self.matches = [detector matchesInString:stat options:0 range:NSMakeRange(0, [stat length])];
+	NSLog(@"=========> FOUND URLS in %i: %@ ", indexPath.item, self.matches);
+	
 }
-
-
-
 
 
 - (void)goToTweetUrl

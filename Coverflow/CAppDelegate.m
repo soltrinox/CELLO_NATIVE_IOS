@@ -19,7 +19,9 @@
 //    self.navigationController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
 //    self.window.rootViewController = self.navigationController;
 
-	[TestFlight takeOff:@"ebf1b5dc-564a-47b9-acad-bfacfb0a2737"];
+//	[TestFlight takeOff:@"ebf1b5dc-564a-47b9-acad-bfacfb0a2737"];
+
+	[TestFlight takeOff:@"8e57dc0c-2b4f-4aa2-a850-4fd470f7ed1b"];
 
 	[self restKitTest];
 	[self.window makeKeyAndVisible];

@@ -1,0 +1,7 @@
+
+// open and launch the xcode editor
+cd /Users/dylan/Documents/WORK/CELLO_NATIVE_IOS
+sudo open CELLO.xcodeproj/
+
+// add all edits to the git repository for commit
+git add -A .
