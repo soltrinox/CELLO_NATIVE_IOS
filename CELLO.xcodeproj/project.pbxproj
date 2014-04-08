@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1636306F623E491299996AD0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A24F118BDDB146FBBCC1DCB7 /* libPods.a */; };
 		4522516916123719007FEECC /* CAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 452250F016123719007FEECC /* CAppDelegate.m */; };
 		4522516A16123719007FEECC /* CDemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 452250F216123719007FEECC /* CDemoCollectionViewCell.m */; };
 		4522516B16123719007FEECC /* CDemoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 452250F416123719007FEECC /* CDemoCollectionViewController.m */; };
@@ -31,6 +30,7 @@
 		458DD6161610F71C00DB2DD2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458DD6151610F71C00DB2DD2 /* AssetsLibrary.framework */; };
 		45C56F3F1612A5120066CADB /* CReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C56F3E1612A5120066CADB /* CReflectionView.m */; };
 		FC11D5F6182B9532002BC771 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC11D5F5182B9532002BC771 /* SDWebImage.framework */; };
+		FC1743D518F4B381008F1BA2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1743D418F4B381008F1BA2 /* libPods.a */; };
 		FC18948D18AD585D005D1917 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC18948B18AD583C005D1917 /* libTestFlight.a */; };
 		FC4E6017182B98DD00032812 /* CELLO_WINE.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4E6016182B98DD00032812 /* CELLO_WINE.m */; };
 		FC4E601B182B9FCA00032812 /* RKTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4E601A182B9FCA00032812 /* RKTweet.m */; };
@@ -114,9 +114,9 @@
 		458DD6151610F71C00DB2DD2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		45C56F3D1612A5120066CADB /* CReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CReflectionView.h; path = ../../Coverflow/CReflectionView.h; sourceTree = "<group>"; };
 		45C56F3E1612A5120066CADB /* CReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CReflectionView.m; path = ../../Coverflow/CReflectionView.m; sourceTree = "<group>"; };
-		A24F118BDDB146FBBCC1DCB7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA27E3EC6661492CB2771195 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		FC11D5F5182B9532002BC771 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
+		FC1743D418F4B381008F1BA2 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPods.a; sourceTree = "<group>"; };
 		FC18948818AD5809005D1917 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		FC18948918AD5809005D1917 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
 		FC18948A18AD5809005D1917 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
@@ -203,12 +203,12 @@
 				456BDE0716108D7A00398F00 /* QuartzCore.framework in Frameworks */,
 				FC11D5F6182B9532002BC771 /* SDWebImage.framework in Frameworks */,
 				456BDDD81610896400398F00 /* CoreGraphics.framework in Frameworks */,
+				FC1743D518F4B381008F1BA2 /* libPods.a in Frameworks */,
 				FC5650441820A06E001B54A8 /* MapKit.framework in Frameworks */,
 				458DD6161610F71C00DB2DD2 /* AssetsLibrary.framework in Frameworks */,
 				FC5E567B180D534700CB2F5D /* ImageIO.framework in Frameworks */,
 				FC5E5675180D324700CB2F5D /* SDWebImage.framework in Frameworks */,
 				FC56501C18209C0C001B54A8 /* libz.dylib in Frameworks */,
-				1636306F623E491299996AD0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +254,7 @@
 		456BDDD21610896400398F00 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC1743D418F4B381008F1BA2 /* libPods.a */,
 				FC18948B18AD583C005D1917 /* libTestFlight.a */,
 				FC4E6035182BA59000032812 /* libPods-RestKit.a */,
 				FC4E6033182BA50100032812 /* libPods-RestKit.a */,
@@ -273,7 +274,6 @@
 				456BDDD31610896400398F00 /* UIKit.framework */,
 				456BDDD51610896400398F00 /* Foundation.framework */,
 				456BDDD71610896400398F00 /* CoreGraphics.framework */,
-				A24F118BDDB146FBBCC1DCB7 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
