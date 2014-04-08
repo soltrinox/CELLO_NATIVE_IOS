@@ -22,13 +22,7 @@
 		456BDDD61610896400398F00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456BDDD51610896400398F00 /* Foundation.framework */; };
 		456BDDD81610896400398F00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456BDDD71610896400398F00 /* CoreGraphics.framework */; };
 		456BDE0716108D7A00398F00 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456BDE0616108D7A00398F00 /* QuartzCore.framework */; };
-		4576D0BA161236A10006877C /* CBetterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576D0AF161236A10006877C /* CBetterCollectionViewCell.m */; };
-		4576D0BB161236A10006877C /* CBetterCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576D0B1161236A10006877C /* CBetterCollectionViewLayoutAttributes.m */; };
-		4576D0BC161236A10006877C /* CCoverflowCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4576D0B3161236A10006877C /* CCoverflowCollectionViewLayout.m */; };
-		4576D0BD161236A10006877C /* CInterpolator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4576D0B5161236A10006877C /* CInterpolator.mm */; };
-		4576D0BE161236A10006877C /* Interpolator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4576D0B6161236A10006877C /* Interpolator.cpp */; };
 		458DD6161610F71C00DB2DD2 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458DD6151610F71C00DB2DD2 /* AssetsLibrary.framework */; };
-		45C56F3F1612A5120066CADB /* CReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C56F3E1612A5120066CADB /* CReflectionView.m */; };
 		FC11D5F6182B9532002BC771 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC11D5F5182B9532002BC771 /* SDWebImage.framework */; };
 		FC1743D518F4B381008F1BA2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1743D418F4B381008F1BA2 /* libPods.a */; };
 		FC18948D18AD585D005D1917 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC18948B18AD583C005D1917 /* libTestFlight.a */; };
@@ -70,6 +64,12 @@
 		FC7B938B1820979900B32071 /* icon-plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7B937D1820979900B32071 /* icon-plus@2x.png */; };
 		FC7B938C1820979900B32071 /* icon-star.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7B937E1820979900B32071 /* icon-star.png */; };
 		FC7B938D1820979900B32071 /* icon-star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7B937F1820979900B32071 /* icon-star@2x.png */; };
+		FCA3A37D18F4BFBE009447B0 /* CBetterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA3A37218F4BFBE009447B0 /* CBetterCollectionViewCell.m */; };
+		FCA3A37E18F4BFBE009447B0 /* CBetterCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA3A37418F4BFBE009447B0 /* CBetterCollectionViewLayoutAttributes.m */; };
+		FCA3A37F18F4BFBE009447B0 /* CCoverflowCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA3A37618F4BFBE009447B0 /* CCoverflowCollectionViewLayout.m */; };
+		FCA3A38018F4BFBE009447B0 /* CInterpolator.mm in Sources */ = {isa = PBXBuildFile; fileRef = FCA3A37818F4BFBE009447B0 /* CInterpolator.mm */; };
+		FCA3A38118F4BFBE009447B0 /* CReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA3A37A18F4BFBE009447B0 /* CReflectionView.m */; };
+		FCA3A38218F4BFBE009447B0 /* Interpolator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCA3A37B18F4BFBE009447B0 /* Interpolator.cpp */; };
 		FCADEAE81820AD730076E0E5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCADEAE71820AD730076E0E5 /* Security.framework */; };
 		FCADEAEA1820AD810076E0E5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCADEAE91820AD810076E0E5 /* libxml2.dylib */; };
 		FCADEAEC1820AD960076E0E5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCADEAEB1820AD960076E0E5 /* CoreData.framework */; };
@@ -101,19 +101,7 @@
 		456BDDD51610896400398F00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		456BDDD71610896400398F00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		456BDE0616108D7A00398F00 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		4576D0AE161236A10006877C /* CBetterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBetterCollectionViewCell.h; path = ../../Coverflow/CBetterCollectionViewCell.h; sourceTree = "<group>"; };
-		4576D0AF161236A10006877C /* CBetterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBetterCollectionViewCell.m; path = ../../Coverflow/CBetterCollectionViewCell.m; sourceTree = "<group>"; };
-		4576D0B0161236A10006877C /* CBetterCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBetterCollectionViewLayoutAttributes.h; path = ../../Coverflow/CBetterCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
-		4576D0B1161236A10006877C /* CBetterCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBetterCollectionViewLayoutAttributes.m; path = ../../Coverflow/CBetterCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
-		4576D0B2161236A10006877C /* CCoverflowCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCoverflowCollectionViewLayout.h; path = ../../Coverflow/CCoverflowCollectionViewLayout.h; sourceTree = "<group>"; };
-		4576D0B3161236A10006877C /* CCoverflowCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCoverflowCollectionViewLayout.m; path = ../../Coverflow/CCoverflowCollectionViewLayout.m; sourceTree = "<group>"; };
-		4576D0B4161236A10006877C /* CInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CInterpolator.h; path = ../../Coverflow/CInterpolator.h; sourceTree = "<group>"; };
-		4576D0B5161236A10006877C /* CInterpolator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CInterpolator.mm; path = ../../Coverflow/CInterpolator.mm; sourceTree = "<group>"; };
-		4576D0B6161236A10006877C /* Interpolator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Interpolator.cpp; path = ../../Coverflow/Interpolator.cpp; sourceTree = "<group>"; };
-		4576D0B7161236A10006877C /* Interpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Interpolator.h; path = ../../Coverflow/Interpolator.h; sourceTree = "<group>"; };
 		458DD6151610F71C00DB2DD2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		45C56F3D1612A5120066CADB /* CReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CReflectionView.h; path = ../../Coverflow/CReflectionView.h; sourceTree = "<group>"; };
-		45C56F3E1612A5120066CADB /* CReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CReflectionView.m; path = ../../Coverflow/CReflectionView.m; sourceTree = "<group>"; };
 		EA27E3EC6661492CB2771195 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		FC11D5F5182B9532002BC771 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
 		FC1743D418F4B381008F1BA2 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPods.a; sourceTree = "<group>"; };
@@ -177,6 +165,18 @@
 		FC7B937D1820979900B32071 /* icon-plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-plus@2x.png"; sourceTree = "<group>"; };
 		FC7B937E1820979900B32071 /* icon-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-star.png"; sourceTree = "<group>"; };
 		FC7B937F1820979900B32071 /* icon-star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-star@2x.png"; sourceTree = "<group>"; };
+		FCA3A37118F4BFBE009447B0 /* CBetterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBetterCollectionViewCell.h; sourceTree = "<group>"; };
+		FCA3A37218F4BFBE009447B0 /* CBetterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBetterCollectionViewCell.m; sourceTree = "<group>"; };
+		FCA3A37318F4BFBE009447B0 /* CBetterCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBetterCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
+		FCA3A37418F4BFBE009447B0 /* CBetterCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBetterCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		FCA3A37518F4BFBE009447B0 /* CCoverflowCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCoverflowCollectionViewLayout.h; sourceTree = "<group>"; };
+		FCA3A37618F4BFBE009447B0 /* CCoverflowCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCoverflowCollectionViewLayout.m; sourceTree = "<group>"; };
+		FCA3A37718F4BFBE009447B0 /* CInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CInterpolator.h; sourceTree = "<group>"; };
+		FCA3A37818F4BFBE009447B0 /* CInterpolator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CInterpolator.mm; sourceTree = "<group>"; };
+		FCA3A37918F4BFBE009447B0 /* CReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CReflectionView.h; sourceTree = "<group>"; };
+		FCA3A37A18F4BFBE009447B0 /* CReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CReflectionView.m; sourceTree = "<group>"; };
+		FCA3A37B18F4BFBE009447B0 /* Interpolator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Interpolator.cpp; sourceTree = "<group>"; };
+		FCA3A37C18F4BFBE009447B0 /* Interpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interpolator.h; sourceTree = "<group>"; };
 		FCADEAC71820ACD10076E0E5 /* libRestKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRestKit.a; sourceTree = "<group>"; };
 		FCADEAE71820AD730076E0E5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		FCADEAE91820AD810076E0E5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
@@ -330,24 +330,24 @@
 		FC5E563E180C112B00CB2F5D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				FCA3A37118F4BFBE009447B0 /* CBetterCollectionViewCell.h */,
+				FCA3A37218F4BFBE009447B0 /* CBetterCollectionViewCell.m */,
+				FCA3A37318F4BFBE009447B0 /* CBetterCollectionViewLayoutAttributes.h */,
+				FCA3A37418F4BFBE009447B0 /* CBetterCollectionViewLayoutAttributes.m */,
+				FCA3A37518F4BFBE009447B0 /* CCoverflowCollectionViewLayout.h */,
+				FCA3A37618F4BFBE009447B0 /* CCoverflowCollectionViewLayout.m */,
+				FCA3A37718F4BFBE009447B0 /* CInterpolator.h */,
+				FCA3A37818F4BFBE009447B0 /* CInterpolator.mm */,
+				FCA3A37918F4BFBE009447B0 /* CReflectionView.h */,
+				FCA3A37A18F4BFBE009447B0 /* CReflectionView.m */,
+				FCA3A37B18F4BFBE009447B0 /* Interpolator.cpp */,
+				FCA3A37C18F4BFBE009447B0 /* Interpolator.h */,
 				FC182E2818272C6700C157D9 /* testflight */,
 				FC7B936A182096D200B32071 /* AwesomeMenu */,
 				FC5E566D180CEF1700CB2F5D /* BDViewController.h */,
 				FC5E566E180CEF1700CB2F5D /* BDViewController.m */,
 				FC5E566F180CEF1700CB2F5D /* BDViewController+Private.h */,
 				FC5E5670180CEF1700CB2F5D /* BDViewController+Private.m */,
-				4576D0AE161236A10006877C /* CBetterCollectionViewCell.h */,
-				4576D0AF161236A10006877C /* CBetterCollectionViewCell.m */,
-				4576D0B0161236A10006877C /* CBetterCollectionViewLayoutAttributes.h */,
-				4576D0B1161236A10006877C /* CBetterCollectionViewLayoutAttributes.m */,
-				4576D0B2161236A10006877C /* CCoverflowCollectionViewLayout.h */,
-				4576D0B3161236A10006877C /* CCoverflowCollectionViewLayout.m */,
-				4576D0B4161236A10006877C /* CInterpolator.h */,
-				4576D0B5161236A10006877C /* CInterpolator.mm */,
-				4576D0B6161236A10006877C /* Interpolator.cpp */,
-				4576D0B7161236A10006877C /* Interpolator.h */,
-				45C56F3D1612A5120066CADB /* CReflectionView.h */,
-				45C56F3E1612A5120066CADB /* CReflectionView.m */,
 				FC5E5665180C95D400CB2F5D /* CHTCollectionViewWaterfallLayout.h */,
 				FC5E5666180C95D400CB2F5D /* CHTCollectionViewWaterfallLayout.m */,
 				FC5E5662180C954F00CB2F5D /* CHTCollectionViewWaterfallCell.h */,
@@ -560,32 +560,32 @@
 			files = (
 				FC4E6017182B98DD00032812 /* CELLO_WINE.m in Sources */,
 				FC5E5654180C7BA900CB2F5D /* CelloNavigationViewController.m in Sources */,
+				FCA3A37F18F4BFBE009447B0 /* CCoverflowCollectionViewLayout.m in Sources */,
 				FC7B9370182096D200B32071 /* AwesomeMenuItem.m in Sources */,
-				4576D0BA161236A10006877C /* CBetterCollectionViewCell.m in Sources */,
-				4576D0BB161236A10006877C /* CBetterCollectionViewLayoutAttributes.m in Sources */,
-				4576D0BC161236A10006877C /* CCoverflowCollectionViewLayout.m in Sources */,
 				FC5E5672180CEF1700CB2F5D /* BDViewController+Private.m in Sources */,
 				FC5E5667180C95D400CB2F5D /* CHTCollectionViewWaterfallLayout.m in Sources */,
 				FC5E5646180C112B00CB2F5D /* BDDynamicGridCell.m in Sources */,
-				4576D0BD161236A10006877C /* CInterpolator.mm in Sources */,
 				FC4E601B182B9FCA00032812 /* RKTweet.m in Sources */,
-				4576D0BE161236A10006877C /* Interpolator.cpp in Sources */,
 				FC5E5647180C112B00CB2F5D /* BDDynamicGridViewController.m in Sources */,
 				4522516916123719007FEECC /* CAppDelegate.m in Sources */,
 				FC5E5648180C112B00CB2F5D /* BDRowInfo.m in Sources */,
+				FCA3A38118F4BFBE009447B0 /* CReflectionView.m in Sources */,
 				FC7B936F182096D200B32071 /* AwesomeMenu.m in Sources */,
 				FC5E5664180C954F00CB2F5D /* CHTCollectionViewWaterfallCell.m in Sources */,
 				FC5E566A180C960400CB2F5D /* ResultsViewController.m in Sources */,
 				FCB900FD1820C24900B69E4E /* Wime.m in Sources */,
 				FC4E602E182BA0B000032812 /* RKTwitterViewController.m in Sources */,
+				FCA3A38218F4BFBE009447B0 /* Interpolator.cpp in Sources */,
 				4522516A16123719007FEECC /* CDemoCollectionViewCell.m in Sources */,
+				FCA3A37D18F4BFBE009447B0 /* CBetterCollectionViewCell.m in Sources */,
 				FC6E2A54182C9E3E005E5337 /* TwitterWebViewController.m in Sources */,
 				4522516B16123719007FEECC /* CDemoCollectionViewController.m in Sources */,
 				452251DB16123719007FEECC /* main.m in Sources */,
 				FC4E6032182BA49700032812 /* RKTwitterCoreData.xcdatamodel in Sources */,
 				FC5E5671180CEF1700CB2F5D /* BDViewController.m in Sources */,
+				FCA3A37E18F4BFBE009447B0 /* CBetterCollectionViewLayoutAttributes.m in Sources */,
 				452251EA161240A6007FEECC /* CCoverflowTitleView.m in Sources */,
-				45C56F3F1612A5120066CADB /* CReflectionView.m in Sources */,
+				FCA3A38018F4BFBE009447B0 /* CInterpolator.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
