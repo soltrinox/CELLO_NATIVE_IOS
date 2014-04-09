@@ -15,6 +15,8 @@ pod 'RFQuiltLayout', '~> 1.1.1'
 pod 'PullToRefresh', '~> 0.0.1'
 pod 'iCarousel', '~> 1.7.6'
 
++++
+
 
 This project is using COCOAPODS .
 You must have the latest COCOAPODS tools and binaries installed from 
