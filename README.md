@@ -7,15 +7,13 @@ Overview
 
 This application is a demo project i use for experimenting with various UX/UI controlls and frameworks. Theer are implementations of the following frameworks :
 
-pod 'AFNetworking', '~> 1.3.0'
-pod 'RestKit', '~>  0.21.0'
-pod 'SCSlidingViewController', '~> 0.0.1'
-pod 'REFrostedViewController', '~> 2.2.1'
-pod 'RFQuiltLayout', '~> 1.1.1'
-pod 'PullToRefresh', '~> 0.0.1'
-pod 'iCarousel', '~> 1.7.6'
-
-+++
+	pod 'AFNetworking', '~> 1.3.0'
+	pod 'RestKit', '~>  0.21.0'
+	pod 'SCSlidingViewController', '~> 0.0.1'
+	pod 'REFrostedViewController', '~> 2.2.1'
+	pod 'RFQuiltLayout', '~> 1.1.1'
+	pod 'PullToRefresh', '~> 0.0.1'
+	pod 'iCarousel', '~> 1.7.6'
 
 
 This project is using COCOAPODS .
